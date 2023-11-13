@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,400;0,900;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+  
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .wrapper {
+    width: 78%;
+    margin: auto;
+  }
+  
+
+  
+  .highlight {
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+  }
+  
+  /* header starts > */
+  
+  header {
+    background-color: #ecf0f1;
+    height: 521px;
+    overflow: hidden;
+  }
+  
+  #nav-menu a {
+    color: #2ecc71;
+    font-weight: 600;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background: #323f4e;
+    align-items: center;
+    padding: 28px;
+    border-top: 5px solid #2ecc71;
+    height: 36px;
+    line-height: 36px;
+  }
+  
+  #logo {
+    float: left;
+  }
+  
+  #nav-menu {
+    float: right;
+  }
+  
+  ul#nav-links-ul {
+    display: flex;
+  }
+  
+  ul#nav-links-ul li a {
+    font-size: 14px;
+    padding: 8px 20px;
+    border-right: 1px solid #2ecc71;
+    transition: 0.9s;
+  }
+  
+  ul#nav-links-ul li:last-child > a {
+    border-right: none;
+  }
+  
+  ul#nav-links-ul li a:hover {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  ul#nav-links-ul li:hover:nth-child(2) > a,
+  ul#nav-links-ul li:hover:nth-child(3) > a {
+    border-radius: 0;
+  }
+  
+  ul#nav-links-ul li a:hover:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  
+  /*  < navbar end */
+  
+  /* showcase starts >*/
+  
+  div#showcase {
+    display: flex;
+    padding: 50px 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  div#showcase-bg {
+    background-color: #2ecc71;
+    height: 119vh;
+  }
+  
+  div#showcase-left {
+    float: left;
+  }
+  
+  div#showcase-right {
+    position: relative;
+    font-size: 17px;
+    float: right;
+    padding: 30px 38px;
+    width: 441px;
+    color: white;
+    margin: auto;
+    left: -22px;
+  }
+  
+  div#showcase-right-text h2,
+  div#showcase-right-text p {
+    font-weight: 400;
+  }
+  
+  div#showcase-right-text p {
+   
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  div#showcase-right-img h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 9px 0;
+  }
+  
+  #apple-pic {
+    padding-right: 20px;
+  }
+  .app-green-wrap h1{
+    display: block;
+    }
+    .app-green{
+        
+        display: table;
+        width: 1000px;
+        color: #fff;
+        margin: 0 auto 50px auto;
+        background: #2ecc71;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    
+    
+    }
+    .half-grid{
+            float: left;
+        
+        width: 500px;
+        color: black;
+        margin-top: 50px;
+    }
+    .container-cf-three-column-icon h1{
+      margin: 20px;
+      padding: 20px;
+      font-weight: initial;
+      margin-left: 250px;
+    }
+    .ab{
+      float: left;
+      width: 33%;
+      text-align: center;
+     
+      margin-left: 59px;
+  
+     
+  }
+  .ab p{
+     
+      width: 200px;
+      margin-left: 150px;
+      
+      
+  }
+  
+  .ab h2{
+      padding: 15px;
+      font-size: 20px;
+  }
+  .bc{
+     float: inline-start;
+      
+      text-align: center;
+      
+  }
+  .bc p{
+    width:200px ;
+    margin-left: 18px;
+}
+.bc h2{
+    padding: 15px;
+    font-size:30px;
+}
+  .cd{
+      float: right;
+      width: 19%;
+      text-align: center;
+     
+      margin-right: 267px;
+      margin-top :7px;
+  }
+  .cd p{
+      width: 200px;
+      margin-left: 50px;
+  }
+  .cd h2{
+      padding: 15px;
+      font-size: 30px;
+  }
+  .html{
+    width: 85%;
+}
+.with{
+    float: left;
+    margin-top: 30px;
+    margin-left: 210px;
+}
+.bd{
+    float: right;
+    width: 400px;
+    margin-left: 160px;
+    margin-top:80px ;
+}
+.gled{
+    float: left;
+    margin-top: 100px;
+    margin-left: 250px;
+    
+   
+}
+.gled p{
+    width: 400px;
+}
+.pic-set{
+    float: right;
+    margin-top: 50px;
+    margin-right: 270px;
+}
+.profile{
+    float: right;
+    width: 80%;
+    margin-right: 200px;
+  
+}
+.gallery-cf{
+   display: flex;
+   
+   text-align: center;
+}
+p{
+    text-align: center;
+    margin-top: 100px;
+}
