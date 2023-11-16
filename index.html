@@ -15,10 +15,18 @@
           </div>
           <div id="nav-menu">
             <ul id="nav-links-ul">
-              <li><a href="#">Features</a></li>
-              <li><a href="#">More Feature</a></li>
-              <li><a href="#">Developers</a></li>
-              <li><a href="#">FAQs</a></li>
+              <li>
+                <a href="#features" data-uk-smooth-scroll>Features</a>
+            </li>
+            <li>
+                <a href="#extra" data-uk-smooth-scroll>More Feature</a>
+            </li>
+            <li>
+                <a href="#dey" data-uk-smooth-scroll> Developers</a>
+            </li>
+            <li>
+                <a href="#help" data-uk-smooth-scroll>FAQs</a>
+            </li>
             </ul>
           </div>
         </div>
@@ -55,6 +63,8 @@
         </div>
       </div>
     </header>
+    <div style="margin-top: 88px"></div>
+
 
    
 
@@ -81,6 +91,8 @@
               tincidunt. Sed sollicitudin pretium nisi eu laoreet.</p>
       </section>
       </div>
+      <div style="margin-top: 88px"></div>
+
 
        <!--ILLUSTRATION LEFT SIDE-->
        <div id="extra" class="html">
@@ -95,6 +107,8 @@
 
 
     </div>
+    <div style="margin-top: 88px"></div>
+
     <!--ILLUSTRATION RIGHT SIDE-->
     <div class="flex">
         <div id="dey" class="gled">
@@ -107,7 +121,157 @@
 
 
     </div>
+    <div style="margin-top: 88px"></div>
+
+
+     <!--AUTHORS GALLERY-->
+     <div id="dev" class="profile">
+      <h2>Developers</h2>
+
+      <div class="gallery-cf">
+          <section data-uk-scrollspy="{cls: 'slideright' , repeat:true}">
+              <div class="show-profile">
+                  <p class="bio">
+                      <span>sara Rose</span>Donec nec orci idenimlac inia auctor. Interdum urna.
+                  </p>
+                  <a href="#" target="_blank" class="follow">View profile</a>
+              </div>
+              <img src="images/gallery_1.png" alt="text">
+              <div class="designation">UI Designer</div>
+
+          </section>
+          <section data-uk-scrollspy="{cls: 'slideright' , repeat:true}">
+              <div class="show-profile">
+                  <p class="bio">
+                      <span>john doe</span>
+                      Donec nec orci idenimlac inia auctor. Interdum urna.
+                  </p>
+                  <a href="#"target="_blank" class="follow">view profile</a>
+              </div>
+              <img src="images/gallery_2.png" alt="text">
+              <div class="designation">Html coder</div>
+
+
+          </section>
+          <section data-uk-scrollspy="{cls: 'slideright' , repeat:true}">
+              <div class="show-profile">
+                  <p class="bio">
+                      <span>sara corner</span>
+                      Donec nec orci idenimlac inia auctor. Interdum urna.
+                  </p>
+                  <a href="#" target="_blank" class="follow">view profile</a>
+              </div>
+              <img src="images/gallery_3.png" alt="text">
+              <div class="designation">css coder</div>
+
+          </section>
+          <section data-uk-scrollspy="{cls: 'slideright' , repeat:true}"><div class="show-profile">
+              <p class="bio">
+                  <span>John boe</span>
+                  Donec nec orci idenimlac inia auctor. Interdum urna.
+              </p>
+              <a href="#"target="_blank" class="follow">view profile</a>
+          </div>
+          <img src="images/gallery_4.png" alt="text">
+          <div class="designation">
+              jQuery ninja
+          </div>
+
+          </section>
+
+          ::after
+          
+
+      </div>
+
+
+  </div>
+  <div style="margin-top: 88px"></div>
+
+   <!-- FAQ -->
+    
+   <script>
+    $(document).ready(function() {
+      $('dl.faq> dd').hide();  
+      $('dl.faq> dt').click(function() {
+        $(this).next('dd').slideToggle('fast')
+        .siblings('dd:visible').slideUp('fast');
+      });
+    });    
+</script>
+
+<div class="container" id="help">
+    <h1>Frequently Asked Questions</h1>
+    <dl class="faq">
+        <dt class="one"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada est non ultrices faucibus. Phasellus euest ?</span></dt>
+          <dd>Sed et augue nec nisl faucibus mattis eget tincidunt neque. Nunc pellentesque ut neque non vulputate. Donec aliquet velit eget molestie congue. Vivamus pellentesque consectetur feugiat. Sed aliquam quam ut tincidunt semper. Mauris nec porta leo, ac dictum libero. Sed tempus tempor iaculis. Suspendisse blandit risus risus, sit amet consectetur nisi pretium non.</dd>
+        <dt class="two"><span>Quisque at malesuada augue. In et tortor eget ante auctor suscipit. Integer accumsan molestie hendrerit. Integer suscipit ?</span></dt>
+          <dd>Sed et augue nec nisl faucibus mattis eget tincidunt neque. Nunc pellentesque ut neque non vulputate. Donec aliquet velit eget molestie congue. Vivamus pellentesque consectetur feugiat. Sed aliquam quam ut tincidunt semper. Mauris nec porta leo, ac dictum libero. Sed tempus tempor iaculis. Suspendisse blandit risus risus, sit amet consectetur nisi pretium non.</dd>
+        <dt class="three"><span>Morbi eu sapien at nulla rhoncus sagittis non sit amet diam. Etiam nec ipsum consectetur, vestibulum sapien ac, convallis est ?</span></dt>
+          <dd>Sed et augue nec nisl faucibus mattis eget tincidunt neque. Nunc pellentesque ut neque non vulputate. Donec aliquet velit eget molestie congue. Vivamus pellentesque consectetur feugiat. Sed aliquam quam ut tincidunt semper. Mauris nec porta leo, ac dictum libero. Sed tempus tempor iaculis. Suspendisse blandit risus risus, sit amet consectetur nisi pretium non.</dd>
+        <dt class="four"><span>Aenean mattis suscipit urna sed varius. Vivamus in pretium risus. Sed egestas leo a dignissim tempor. Cum sociis natoque ?</span></dt>
+          <dd>Sed et augue nec nisl faucibus mattis eget tincidunt neque. Nunc pellentesque ut neque non vulputate. Donec aliquet velit eget molestie congue. Vivamus pellentesque consectetur feugiat. Sed aliquam quam ut tincidunt semper. Mauris nec porta leo, ac dictum libero. Sed tempus tempor iaculis. Suspendisse blandit risus risus, sit amet consectetur nisi pretium non.</dd>
+        <dt class="five"><span>Quisque aliquam lectus non mi rutrum, non gravida lorem vehicula. Quisque sollicitudin lorem sem, sit amet porttitor augue?</span></dt>
+          <dd>Sed et augue nec nisl faucibus mattis eget tincidunt neque. Nunc pellentesque ut neque non vulputate. Donec aliquet velit eget molestie congue. Vivamus pellentesque consectetur feugiat. Sed aliquam quam ut tincidunt semper. Mauris nec porta leo, ac dictum libero. Sed tempus tempor iaculis. Suspendisse blandit risus risus, sit amet consectetur nisi pretium non.</dd>
+    </dl>    	
+</div>
+<div style="width: 700px;"></div>
+<!-- NEWSLETTER SUBSCRIPTION FORM -->
+    
+<div class="container-full">
+  <form name="news_subs" method="post" action="files/subscribe.php" class="nl-form">
+      <ul class="cf">
+          <li>Subscribe for newsletter</li>
+            <li><input type="text" name="email-only" placeholder="Your Email ID"></li>
+            <li><input type="submit" name="nls_button" value="SUBMIT"></li>
+        </ul>
+    </form>
+</div>
+
+  <!-- FOOTER -->    
+    
+  <footer>
+    <div>
+          <section class="cf">
+              <ul class="footer-links">
+                  <li><a href="#" target="_blank">www.website.com</a></li>
+                  <li><a href="mailto:mdsoikatislam47@gmail.com" target="_blank">mdsoikatislam47@gmail.com</a></li>
+              </ul>
+              <ul class="footer-media">
+                  <li><a href="#"><img src="images/media_google.png" alt="text"></a></li>
+                  <li><a href="#"><img src="images/media_twitter.png" alt="text"></a></li>
+                  <li><a href="#"><img src="images/media_facebook.png" alt="text"></a></li>
+              </ul>
+          </section>
+      </div>
+    <p id="fun"> Copyright &copy; 2023, Company Name GrowthBizCSE</p>
+  </footer>
+  
+<a href="#" class="go-top">Go Top</a>
+<script>
+$(document).ready(function() {
+  // Show or hide the sticky footer button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+      $('.go-top').fadeIn(200);
+    } else {
+      $('.go-top').fadeOut(200);
+    }
+  });
+  
+  // Animate the scroll to top
+  $('.go-top').click(function(event) {
+    event.preventDefault();
+    
+    $('html, body').animate({scrollTop: 0}, 300);
+  })
+});
+</script>
+  
+</div>
+
+
 
   
-   </body>
+  </body>
 </html>
